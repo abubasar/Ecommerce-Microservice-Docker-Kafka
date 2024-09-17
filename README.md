@@ -1,3 +1,3 @@
 Two Service:Product Service and Order Service
 
-Tools:Dotnet Aspire,Docker and Kafka
+Tools:Dotnet Aspire,Blazor Web,Docker and Kafka
