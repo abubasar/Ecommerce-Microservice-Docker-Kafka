@@ -11,7 +11,7 @@ This project is an Ecommerce microservice application consisting of two primary 
 
 ## Architecture
 
-- **Product Service**: Provides endpoints to list products and update stock.
+- **Product Service**: Provides endpoints to list products.
 - **Order Service**: Allows users to place orders, which triggers stock updates in the Product Service via Kafka.
 
 ## Technologies Used
