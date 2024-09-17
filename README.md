@@ -10,7 +10,7 @@ Architecture
 Product Service: Provides endpoints to list products and update stock.
 Order Service: Allows users to place orders, which triggers stock updates in the Product Service via Kafka.
 Technologies Used
-Spring Boot: For creating the microservices.
+DOTNET CORE 8: For creating the microservices.
 Kafka: For handling asynchronous communication and stock updates.
 Docker: For containerization.
 SQL SERVER: For database management.
@@ -34,6 +34,8 @@ bash
 Copy code
 cd docker
 docker-compose -f kafka.yml up
+
+
 Configure Database
 
 Ensure that your database is up and running. Configure the database settings in the application.properties file of each service.
